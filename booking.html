@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/booking.css">
+    <title>Tom's Kitchen</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="logo__container">
+                <img src="assets/images/kitchen-utensils.png" class="logo__img" alt="logo"> 
+                <a href="/home.html" class="nav__logo"> 
+                    Tom's <br> Kitchen
+                </a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="/home.html" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/menu.html" class="nav__link active-link">Menu</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/about.html" class="nav__link active-link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/booking.html" class="nav__link book__link active-link">Book Table</a>
+                    </li>
+                </ul>
+
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="section form" >
+            <div class="form__container container grid">
+                <h3 class="form__title">Book Table</h3>
+                <div class="form__wrapper">
+                    <form name="booking" method="POST" netlify class="form">
+                        <div class="form__group">
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName" name="First Name" required>
+                        </div>
+                        <div class="form__group">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" name="Last Name" required>
+                        </div>
+                        <div class="form__group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="Email" required>
+                        </div>
+                        <div class="form__group">
+                            <label for="tableType">Table Type</label>
+                            <select name="Table Type" id="tableType" required>
+                                <option selected disabled>Choose</option>
+                                <option value="small">Small(2 persons)</option>
+                                <option value="medium">Small(4 persons)</option>
+                                <option value="large">large(6 persons)</option>
+                            </select>
+                        </div>
+                        <div class="form__group">
+                            <label for="guestNumber">Guest Number</label>
+                            <input type="number" id="guestNumber" name="Guest Number" min="1" max="10" required>
+                        </div>
+                        <div class="form__group">
+                            <label for="placement">Placement</label>
+                            <select name="Placement" id="placement">
+                                <option selected disabled>Choose</option>
+                                <option value="outdoor">Outdoor</option>
+                                <option value="indoor">Indoor</option>
+                                <option value="rooftop">rooftop</option>
+                            </select>
+                        </div>
+                        <div class="form__group">
+                            <label for="date">Date</label>
+                            <input type="date" id="date" name="Date" required>
+                        </div>
+                        <div class="form__group">
+                            <label for="time">time</label>
+                            <input type="time" id="time" name="Time" required>
+                        </div>
+                        <div class="form__group form__group__full">
+                            <label for="note">Note</label>
+                            <textarea name="Note" id="note" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Reserve Table</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content grid">
+                <div class="footer__data">
+                    <h3 class="footer__title">Tom's Kitchen</h3>
+                    <p class="footer__description">
+                        Fresh and delicious traditional Bangladeshi food to delight the whole family.
+                    </p>
+                    <div>
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                            <i class="ri-youtube-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Links</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Home</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Menu</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Book Table</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Support</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Contact</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Support Center</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Feedback</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Contact</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">+1 (833) 693-8326</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">tomkitchen@support.com</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">New York, USA</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__rights">
+                <div class="footer__terms">
+                    <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                    <a href="#" class="footer__terms-link">Privacy Policy</a>
+                </div>
+                <p class="footer__copy">&#169; 2021 Reycode. All rigths reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/menu.js"></script>
+</body>
+</html>

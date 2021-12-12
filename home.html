@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Tom's Kitchen</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="logo__container">
+                <img src="assets/images/kitchen-utensils.png" class="logo__img" alt="logo"> 
+                <a href="/home.html" class="nav__logo"> 
+                    Tom's <br> Kitchen
+                </a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="/home.html" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/menu.html" class="nav__link active-link">Menu</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/about.html" class="nav__link active-link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/booking.html" class="nav__link book__link active-link">Book Table</a>
+                    </li>
+                </ul>
+
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="hero section" id="hero">
+            <div class="hero__container container grid">
+                <div class="hero__data">
+                    <h2 class="section__title hero__title">The Flavour of <br> tradition</h2>
+                    <p class="hero__description">We are a multi-cuisine restaurant offering 
+                        a wide variety of food experience in both casual and fine dining environment.
+                    </p>
+                    <div class="button">
+                        <a href="/menu.html" class="menu__btn">Explore Menu</a>
+                        <a href="/booking.html" class="book__btn">Reserve Table</a>
+                    </div>
+                </div>
+
+                <div class="hero__img">
+                    <div class="hero__img-overlay">
+                        <img src="assets/images/hero1.jfif" alt="" class="hero__img-one">
+                    </div>
+                    <div class="hero__container">
+                        <div class="hero__img-overlay">
+                            <img src="assets/images/hero2.jfif" alt="" class="hero__img-two">
+                        </div>
+    
+                        <div class="hero__img-overlay">
+                            <img src="assets/images/hero3.jfif" alt="" class="hero__img-three">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="info section">
+            <div class="info__container container grid">
+                <div class="info__content grid">
+                    <div class="info__data">
+                        <h2 class="info__number">10 AM - 7 PM</h2>
+                        <span class="info__description">Opening Hour</span>
+                    </div>
+
+                    <div class="info__data">
+                        <h2 class="info__number">New York, USA</h2>
+                        <span class="info__description">Address</span>
+                    </div>
+
+                    <div class="info__data">
+                        <h2 class="info__number">+1 (833) 693-8326</h2>
+                        <span class="info__description">Call Now</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="store section" id="store">
+            <div class="store__container container grid">
+                <div class="store__data">
+                    <h2 class="section__title store__name">Our Specials</h2>
+                    <p class="store__description">
+                        All of our food is prepared daily at our restaurants to ensure the highest quality, 
+                        freshest meals are delivered to our customers
+                    </p>
+                    <div class="button">
+                        <a href="/booking.html" class="store__btn">Reserve Table</a>
+                    </div>
+                </div>
+                <div class="store__wrapper">
+                    <div class="store-container">
+                        <div class="store__img">
+                            <img src="assets/images/store1.jfif" alt="" class="store__img-one">
+                        </div>
+                        <div class="store__img-description">
+                            <h2 class="store__title">Carrot Beef Cuisine</h2>
+                            <h3 class="store__price">$45.8</h3>
+                            <p class="store-description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Corporis harum earum inventore amet consectetur expedita esse maxime.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="store-container">
+                        <div class="store__img">
+                            <img src="assets/images/store2.jfif" alt="" class="store__img-one">
+                        </div>
+                        <div class="store__img-description">
+                            <h2 class="store__title">Carrot Beef Cuisine</h2>
+                            <h3 class="store__price">$15.4</h3>
+                            <p class="store-description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Corporis harum earum inventore amet consectetur expedita esse maxime.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="dish section" id="dish">
+            <h2 class="section__title dish__name">Top Dishes</h2>
+            <div class="dish__container container grid">
+                <div class="dish__item">
+                    <div class="dish__item__img">
+                      <img src="assets/images/dish1.jfif" alt="food img" class="dish__img">
+                    </div>
+                    <div class="dish__info">
+                      <h2 class="dish__title">
+                        Vegan Spagetti
+                      </h2>
+                      <h3 class="dish__price">$43</h3>
+                    </div>
+                </div>
+
+                <div class="dish__item">
+                    <div class="dish__item__img">
+                      <img src="assets/images/dish2.jfif" alt="food img" class="dish__img">
+                    </div>
+                    <div class="dish__info">
+                      <h2 class="dish__title">
+                        Mesh Beacon with Salad
+                      </h2>
+                      <h3 class="dish__price">$23</h3>
+                    </div>
+                </div>
+
+                <div class="dish__item">
+                    <div class="dish__item__img">
+                      <img src="assets/images/dish3.jfif" alt="food img" class="dish__img">
+                    </div>
+                    <div class="dish__info">
+                      <h2 class="dish__title">
+                        Vegan Chicken Stew
+                      </h2>
+                      <h3 class="dish__price">$18</h3>
+                    </div>
+                </div>
+
+                <div class="dish__item">
+                    <div class="dish__item__img">
+                      <img src="assets/images/dish4.jfif" alt="food img" class="dish__img">
+                    </div>
+                    <div class="dish__info">
+                      <h2 class="dish__title">
+                        Potato Grill
+                      </h2>
+                      <h3 class="dish__price">$36</h3>
+                    </div>
+                </div>
+
+                <div class="dish__item">
+                    <div class="dish__item__img">
+                      <img src="assets/images/dish5.jfif" alt="food img" class="dish__img">
+                    </div>
+                    <div class="dish__info">
+                      <h2 class="dish__title">
+                        Sea Food
+                      </h2>
+                      <h3 class="dish__price">$56</h3>
+                    </div>
+                </div>
+
+                <div class="dish__item">
+                    <div class="dish__item__img">
+                      <img src="assets/images/dish6.jfif" alt="food img" class="dish__img">
+                    </div>
+                    <div class="dish__info">
+                      <h2 class="dish__title">
+                        Onions Macaroni
+                      </h2>
+                      <h3 class="dish__price">$42</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="video section">
+            <h2 class="section__title video__title">Video Tour</h2>
+
+            <div class="video__container container">
+                <p class="video__description">Enjoy a glimpse of our beautiful restaurant service
+                    for you and your family
+                </p>
+
+                <div class="video__content">
+                    <video id="video-file" width="900">
+                        <source src="assets/video/video.mp4" type="video/mp4" class="video">
+                    </video>
+
+                    <button class="button button--flex video__button" id="video-button">
+                        <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section event">
+            <div class="event__container container grid">
+                <div class="event__wrapper">
+                    <div class="event__data">
+                        <div class="event__img__container">
+                            <img src="assets/images/event1.jpeg" alt="" class="event__img">
+                        </div>
+                        <div class="event__info">
+                            <h2 class="event__title">Corporate Events</h2>
+                            <p class="event__description">
+                                Tom's Kitchen is the perfect venue for your corporate events. 
+                                We specialize in private parties.
+                            </p>
+                        </div>
+                    </div>
+        
+                    <div class="event__data">
+                        <div class="event__img__container">
+                            <img src="assets/images/event2.jpeg" alt="" class="event__img">
+                        </div>
+                        <div class="event__info">
+                            <h2 class="event__title">Weddings</h2>
+                            <p class="event__description">
+                                Tom's Kitchen offers an intimately unique wedding experience 
+                                set in a spectacular setting that is sophisticated and comfortable.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-info">
+                    <h2 class="section__title event__name">Book for Events</h2>
+                    <p class="event-description">
+                        Book your private event or corporate function at 
+                        Tom's Kitchen to experience a truly unique experience.
+                    </p>
+                    <div class="button">
+                        <a href="/booking.html" class="event__btn">Reserve Table</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section service">
+            <div class="service__container container grid">
+                <div class="service__info">
+                    <h2 class="section__title service__title">Why Choose Our Food</h2>
+                    <p class="service__description">
+                        Quality of Service, Food, Ambiance, and Value of Money are the primary
+                        elements for choosing a restaurant. 
+                        Tom's Kitchen is one of the most exquisite fine-dinning 
+                        restaurant in Chittagong cities with a captivating view of GEC Hills, 
+                        perfect ambiance, and scrumptious food.
+                    </p>
+                </div>
+                <div class="service__icons">
+                    <div class="service__icon1">
+                        <div class="service__icon">
+                            <img src="assets/images/004-chef.png" class="icon__img"/>
+                            <h2 class="icon__title">Skilled chef</h2>
+                        </div>
+                        <div class="service__icon">
+                            <img src="assets/images/001-food-serving.png" class="icon__img"/>
+                            <h2 class="icon__title">Classical taste</h2>
+                        </div>
+
+                    </div>
+
+                    <div class="service__icon1">
+                        <div class="service__icon">
+                            <img src="assets/images/002-tray.png" class="icon__img"/>
+                            <h2 class="icon__title">Quality Food</h2>
+                        </div>
+                        <div class="service__icon">
+                            <img src="assets/images/003-restaurant.png" class="icon__img"/>
+                            <h2 class="icon__title">Best service</h2>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section review">
+            <h2 class="section__title review__title">What Our Customers Say</h2>
+            <div class="review__container container grid">
+                <div class="review__info__container">
+                    <div class="review__img__container">
+                        <img src="assets/images/review1.jpeg" class="review__img"/>
+                    </div>
+                    <div class="review__info">
+                        <h2 class="review__name">Sayed Ahmed</h2>
+                        <img src="assets/images/rating.png" alt="" class="review__icon">
+                        <p class="review__description">
+                            “Visited Shaif’s Cuisine with friends last Sunday. 
+                            Really lovely meal and very warm welcome”
+                        </p>
+                    </div>
+                </div>
+                <div class="review__info__container">
+                    <div class="review__img__container">
+                        <img src="assets/images/review2.jpeg" class="review__img"/>
+                    </div>
+                    <div class="review__info">
+                        <h2 class="review__name">Arfan</h2>
+                        <img src="assets/images/rating.png" alt="" class="review__icon">
+                        <p class="review__description">
+                            “from start to finish, lovely experience. 
+                            Hostess very pleasant, wait staff john was wonderful”
+                        </p>
+                    </div>
+                </div>
+                <div class="review__info__container">
+                    <div class="review__img__container">
+                        <img src="assets/images/review3.jpeg" class="review__img"/>
+                    </div>
+                    <div class="review__info">
+                        <h2 class="review__name">Fahim Nishat</h2>
+                        <img src="assets/images/rating.png" alt="" class="review__icon">
+                        <p class="review__description">
+                            “A warm and friendly welcome with fantastic customer service. 
+                            Always great, tasty food.”
+                        </p>
+                    </div>
+                </div>
+                <div class="review__info__container">
+                    <div class="review__img__container">
+                        <img src="assets/images/review4.jpeg" class="review__img"/>
+                    </div>
+                    <div class="review__info">
+                        <h2 class="review__name">Hussain</h2>
+                        <img src="assets/images/rating.png" alt="" class="review__icon">
+                        <p class="review__description">
+                            “I would just like to say thank you for the excellent service 
+                            we received in your restaurant last night.”
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content grid">
+                <div class="footer__data">
+                    <h3 class="footer__title">Tom's Kitchen</h3>
+                    <p class="footer__description">
+                        Fresh and delicious traditional Bangladeshi food to delight the whole family.
+                    </p>
+                    <div>
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                            <i class="ri-youtube-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Links</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Home</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Menu</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Book Table</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Support</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Contact</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Support Center</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Feedback</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Contact</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">+1 (833) 693-8326</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">tomkitchen@support.com</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">New York, USA</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__rights">
+                <div class="footer__terms">
+                    <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                    <a href="#" class="footer__terms-link">Privacy Policy</a>
+                </div>
+                <p class="footer__copy">&#169; 2021 Reycode. All rigths reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
